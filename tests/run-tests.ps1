@@ -1,4 +1,4 @@
-# Runs hang-watch against tests/fake-app.ps1, which freezes on purpose. Takes about two minutes and flashes small
+# Runs hang-watch against tests/fake-app.ps1, which freezes on purpose. Takes about a minute and flashes small
 # minimized windows in the taskbar. Run it from Windows PowerShell: .\tests\run-tests.ps1
 $ErrorActionPreference = 'Stop'
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
